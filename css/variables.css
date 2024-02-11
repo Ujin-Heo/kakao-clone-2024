@@ -1,3 +1,9 @@
 :root {
     --horizontal-space: 25px;
+    --white: #ffffff;
+    --black: #3A1D1D;
+    --gray:#556677;
+    --lightgray: rgba(0, 0, 0, 0.1);
+    --yellow: #F7E600;
+    --sky-blue: #9bbbd4;
 }

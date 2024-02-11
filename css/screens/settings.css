@@ -1,0 +1,33 @@
+.settings-list {
+    padding: 0px var(--horizontal-space);
+}
+
+.settings__row {
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--lightgray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.settings__column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings__column i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.settings__column h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.settings__column span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--gray);
+}

@@ -1,7 +1,3 @@
-.friends-screen {
-    padding: 0px var(--horizontal-space);
-}
-
 .friends-screen__divider {
     margin: 20px 0px;
     padding: 10px 0px;
@@ -9,6 +5,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: rgba(121, 121, 121, 0.65);
+    color: var(--gray);
     border-top: 1px solid;
+}
+
+#splash-screen {
+    background-color: var(--yellow);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 132px;
+    animation: splashScreenDisappear 1.5s ease-in-out forwards;
+}
+
+@keyframes splashScreenDisappear {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
 }

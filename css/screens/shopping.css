@@ -1,0 +1,135 @@
+.shopping-search {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: var(--lightgray);
+}
+
+.shopping-search span {
+    margin-left: 5px;
+    font-size: 16px;
+    color: var(--gray);
+}
+
+.shopping-nav__list {
+    padding: 10px 0px;
+    border-bottom: 2px solid var(--lightgray);
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+}
+
+.shopping-nav__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.shopping-nav__btn:nth-child(2) {
+    color: white;
+}
+
+.shopping-nav__btn--selected {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 50px;
+    border-bottom: 4px solid var(--black);
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+}
+
+.shopping-events {
+    margin: 20px 0px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.shopping-event {
+    margin-right: 10px;
+    position: relative;
+}
+
+.shopping-event__img {
+    width: 135px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shopping-event__label {
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.shopping-event__label h4 {
+    color: white;
+    font-weight: 600;
+}
+
+.shopping-event__title {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shopping-event__text {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+}
+
+.shopping-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.shopping-btn {
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.shopping-btn__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--lightgray);
+}
+
+.shopping-btn__title {
+    margin-top: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+

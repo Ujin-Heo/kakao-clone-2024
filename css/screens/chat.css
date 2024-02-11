@@ -1,0 +1,128 @@
+.chat-body {
+    background-color: var(--sky-blue);
+}
+
+.chat-main {
+    padding: 0px 10px;
+}
+
+.chat__date {
+    width:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    background-color: var(--lightgray);
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 15px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chat-friend {
+    display: flex;
+    margin-right: auto;
+    opacity: 0;
+    animation: textAppear 1s ease-in-out forwards;
+}
+
+.chat-friend__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.chat-friend__row {
+    display: flex;
+    align-items: end;
+    margin: 10px;
+}
+
+.chat-friend__text {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: var(--white);
+}
+
+.chat-friend__time {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.chat-me {
+    float: right;
+    display: flex;
+    align-items: end;
+    margin-left: auto;
+    margin-left: auto;
+    opacity: 0;
+    animation: textAppear 1s ease-in-out 1s forwards;
+}
+
+.chat-me__text {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    background-color: var(--yellow);
+}
+
+.chat-me__time {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px;
+    background-color: var(--white);
+}
+
+.input-box input {
+    width: 70%;
+    height: 100%;
+    padding: 0px 15px;
+    background-color: whitesmoke;
+    border-radius: 21px ;
+    border: 1px solid var(--lightgray);
+}
+
+.input-box button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid var(--lightgray);
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+@keyframes textAppear {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

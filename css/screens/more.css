@@ -1,0 +1,82 @@
+.wallet {
+    background-color: var(--yellow);
+    padding: 20px var(--horizontal-space);
+    padding-bottom: 10px;
+}
+
+.wallet__row {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet__row:nth-child(2) {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 15px 10px;
+}
+
+.wallet .badge {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.wallet .badge span {
+    position: absolute;
+    bottom: 4px;
+}
+
+.wallet__row__column {
+    display: flex;
+    align-items: baseline;
+}
+
+.wallet h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.wallet span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wallet h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.wallet i {
+    margin: 0px 5px;
+    font-size: 18px;
+}
+
+.more-buttons {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.more-btn {
+    width: 20%;
+    margin-right: 6.6%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-btn:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.more-btn i {
+    margin-bottom: 5px;
+}
